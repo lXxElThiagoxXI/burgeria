@@ -1,0 +1,52 @@
+{
+  "background_color": "#ffffff",
+  "description": "It’s time to grill some patties and stack some super tasty burgers! Will your customers love what you make? Play Papa's Burgeria on Friv!",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Friv",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Friv",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://www.friv.com/z/assets/img/frivIcon.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 32,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://www.friv.com/z/games/papasburgeria/square-gamethumb-1-papasburgeria.png",
+      "type": "image/png",
+      "sizes": "1024x1024",
+      "isSquare": true,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 1024,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    },
+    {
+      "src": "https://www.friv.com/favicon.ico",
+      "type": "image/x-icon",
+      "isSquare": false,
+      "isPng": false,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": false,
+      "is256x256": false,
+      "is192x192": false
+    }
+  ]
+}
