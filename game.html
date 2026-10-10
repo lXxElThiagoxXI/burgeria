@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zxx" translate=no>
+
+<head>
+    <meta charset=utf-8>
+    <title>Papa's Burgeria | No Ads | Play It At Friv® 🕹️</title>
+    <!-- d -->
+    <meta content="It’s time to grill some patties and stack some super tasty burgers! Will your customers love what you make? Play Papa's Burgeria on Friv!" name=description>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <link rel="canonical" href="https://www.friv.com/z/games/papasburgeria/game.html">
+    <link rel="image_src" href="https://www.friv.com/z/games/papasburgeria/square-gamethumb-1-papasburgeria.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["VideoGame", "WebApplication"],
+        "name": "Papa's Burgeria",
+        "author": {
+                    "@type": "Organization",
+                    "name": "Friv",
+                    "url": "https://www.friv.com/"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Friv",
+                    "url": "https://www.friv.com/"
+                },
+        "description": "It’s time to grill some patties and stack some super tasty burgers! Will your customers love what you make?",
+        "url": "https://www.friv.com/z/games/papasburgeria/game.html",
+        "image": "https://www.friv.com/z/games/papasburgeria/square-gamethumb-1-papasburgeria.png",
+        "playMode": "SinglePlayer",
+        "comment": "",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.9,
+            "ratingCount": 602
+        },
+        "offers": {
+            "@type": "Offer",
+            "category": "free",
+            "price": 0,
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+
+    <meta property="og:title" content="Papa's Burgeria | No Ads | Play It At Friv® 🕹️">
+    <meta property="og:description" content="It’s time to grill some patties and stack some super tasty burgers! Will your customers love what you make?">
+    <meta property="og:type" content="game">
+    <meta property="og:url" content="https://www.friv.com/z/games/papasburgeria/game.html">
+    <meta property="og:image" content="https://www.friv.com/z/games/papasburgeria/square-gamethumb-1-papasburgeria.png">
+    <meta property="og:site_name" content="Friv">
+    <link href=../../assets/img/frivIcon.png rel="shortcut icon">
+    <link href=../../assets/css/game.css rel=stylesheet>
+
+<body>
+    <div id=lcp></div>
+    <div id=debugText></div>
+    <div id=fullScreenButton></div>
+    <div id=backButton></div>
+    <div id=gameEffectsIndicator></div>
+    <div id=gameEffectsButton></div>
+    <div id=walkthroughButton></div>
+    <div id=orientationOverlay></div>
+    <div id=spare1></div>
+    <div id=spare2></div>
+    <div id=loadingOverlay>
+        <div id=userStarRating></div>
+        <div id=orientationIconLandscape></div>
+        <div id=orientationIconPortrait></div>
+        <div id=loadingBox>
+            <div id=spinnerContainer>
+                <div id=spinner></div>
+                <div id=gameMB></div>
+                <div id=playButton></div>
+            </div>
+        </div>
+        <div id=infoBox>
+            <div id=infoBoxLoadingBar></div>
+            <div id=infoBoxTitle class=notranslate></div>
+            <div id=infoBoxDesc></div>
+            <div id=infoBoxControls class=notranslate></div>
+        </div>
+        <div id=promoBox></div>
+    </div>
+    <div id=gameOverlay></div>
+    <iframe id=gameBox title=gameBox src=about:blank></iframe>
+    <script>
+        var game = {
+            title: "Papa's Burgeria",
+
+            enDescription: "It’s time to grill some patties and stack some super tasty burgers! Will your customers love what you make? OGKA",
+
+            arDescription: "حان الوقت لشواء بعض الفطائر وتجميع بعض البرغر اللذيذ للغاية! هل سيحب زبائنك ما تصنعه؟",
+            azDescription: "Vaxtdır kotletləri qızartmaq və super ləzzətli burgerləri yığmaq! Müştəriləriniz sizin hazırladığınızı bəyənəcəkmi?",
+            bgDescription: "Време е да изпечете няколко кюфтенца и да подредите няколко супер вкусни бургера! Дали вашите клиенти ще харесат това, което правите?",
+            bsDescription: "Vrijeme je da ispečete pljeskavice i složite super ukusne burgere! Hoće li se vašim kupcima svidjeti ono što napravite?",
+            caDescription: "És hora de fer a la graella unes quantes carns i apilar unes hamburgueses super delicioses! Als teus clients els encantarà el que facis?",
+            csDescription: "Je čas ugrilovat nějaké placičky a poskládat super chutné burgery! Budou vaši zákazníci milovat to, co vytvoříte?",
+            daDescription: "Det er tid til at grille nogle bøffer og stable nogle super lækre burgere! Vil dine kunder elske det, du laver?",
+            deDescription: "Es ist Zeit, ein paar Patties zu grillen und super leckere Burger zu stapeln! Werden deine Kunden lieben, was du machst?",
+            elDescription: "Ήρθε η ώρα να ψήσετε μερικά μπιφτέκια και να φτιάξετε μερικά σούπερ νόστιμα μπέργκερ! Θα λατρέψουν οι πελάτες σας αυτό που θα φτιάξετε;",
+            esDescription: "¡Es hora de asar algunas hamburguesas y apilar unas súper sabrosas! ¿Les encantará a tus clientes lo que prepares?",
+            etDescription: "On aeg grillida kotlette ja laduda kokku ülimaitsvaid burgereid! Kas sinu kliendid armastavad seda, mida sa teed?",
+            faDescription: "وقت آن است که مقداری گوشت کبابی کنید و برگرهای فوق‌العاده خوشمزه بچینید! آیا مشتریان شما آنچه را که درست می‌کنید دوست خواهند داشت؟",
+            fiDescription: "On aika grillata pihvejä ja koota superherkullisia burgereita! Rakastavatko asiakkaasi sitä, mitä valmistat?",
+            frDescription: "Il est temps de griller des steaks et d'empiler de superbes burgers savoureux ! Vos clients adoreront-ils ce que vous préparez ?",
+            heDescription: "הגיע הזמן לצלות קציצות ולבנות המבורגרים טעימים במיוחד! האם הלקוחות שלכם יאהבו את מה שתכינו?",
+            hiDescription: "कुछ पैटीज़ को ग्रिल करने और कुछ सुपर स्वादिष्ट बर्गर बनाने का समय आ गया है! क्या आपके ग्राहक आपके बनाए हुए को पसंद करेंगे?",
+            hrDescription: "Vrijeme je za roštiljanje pljeskavica i slaganje super ukusnih burgera! Hoće li vaši kupci voljeti ono što napravite?",
+            huDescription: "Ideje grillezni néhány húspogácsát és szuper finom burgereket összeállítani! Vajon a vásárlóid imádni fogják, amit készítesz?",
+            hyDescription: "Ժամանակն է տապակել բիֆշտեքսներ և հավաքել սուպեր համեղ բուրգերներ: Կսիրեն արդյոք ձեր հաճախորդները այն, ինչ դուք եք պատրաստում:",
+            idDescription: "Saatnya memanggang beberapa roti daging dan menumpuk burger super lezat! Akankah pelanggan Anda menyukai apa yang Anda buat?",
+            itDescription: "È ora di grigliare qualche polpetta e impilare dei super gustosi hamburger! I tuoi clienti ameranno quello che prepari?",
+            jaDescription: "パティをグリルして、超おいしいハンバーガーを積み重ねる時間です！お客さんはあなたが作るものを気に入ってくれるでしょうか？",
+            kaDescription: "დროა შეწვათ კატლეტები და დააწყოთ უგემრიელესი ბურგერები! მოეწონებათ თქვენს მომხმარებლებს ის, რასაც გააკეთებთ?",
+            koDescription: "이제 패티를 굽고 맛있는 햄버거를 쌓을 시간입니다! 손님들이 당신이 만든 것을 좋아할까요?",
+            ltDescription: "Metas kepti paplotėlius ir dėti super skanius mėsainius! Ar jūsų klientai pamėgs tai, ką pagaminsite?",
+            lvDescription: "Ir laiks grilēt dažas kotletes un sakraut super gardus burgerus! Vai jūsu klienti mīlēs to, ko pagatavosiet?",
+            mkDescription: "Време е да се испечат неколку плескавици и да се наредат супер вкусни бургери! Дали вашите клиенти ќе го сакаат тоа што ќе го направите?",
+            msDescription: "Tiba masanya untuk memanggang beberapa patti dan menyusun burger yang sangat lazat! Adakah pelanggan anda akan menyukai apa yang anda buat?",
+            nbDescription: "Det er på tide å grille noen burgere og stable noen supergode burgere! Vil kundene dine elske det du lager?",
+            nlDescription: "Het is tijd om wat burgers te grillen en superlekkere hamburgers te stapelen! Zullen je klanten houden van wat je maakt?",
+            plDescription: "Czas grillować kotlety i układać super smaczne burgery! Czy twoi klienci pokochają to, co zrobisz?",
+            ptDescription: "É hora de grelhar alguns hambúrgueres e empilhar alguns hambúrgueres super saborosos! Os seus clientes vão adorar o que você faz?",
+            roDescription: "Este timpul să grilăm niște chiftele și să stivuim niște burgeri super gustoși! Le va plăcea clienților tăi ceea ce faci?",
+            ruDescription: "Пришло время пожарить котлеты и собрать несколько супер вкусных бургеров! Понравится ли вашим клиентам то, что вы сделаете?",
+            skDescription: "Je čas grilovať placky a skladať super chutné burgery! Budú vaši zákazníci milovať to, čo urobíte?",
+            slDescription: "Čas je, da spečete nekaj pleskavic in sestavite nekaj super okusnih burgerjev! Bodo vaše stranke oboževale, kar boste naredili?",
+            sqDescription: "Është koha për të pjekur disa mishëra dhe për të grumbulluar disa hamburgerë super të shijshëm! A do ta pëlqejnë klientët tuaj atë që bëni?",
+            srDescription: "Време је да испечете неке пљескавице и сложите неке супер укусне бургере! Хоће ли ваши купци волети оно што направите?",
+            svDescription: "Det är dags att grilla lite köttfärsbiffar och stapla några supergoda hamburgare! Kommer dina kunder att älska det du gör?",
+            tlDescription: "Panahon na para mag-ihaw ng mga patty at magsalansan ng napakasarap na burger! Magugustuhan kaya ng mga customer mo ang gagawin mo?",
+            thDescription: "ถึงเวลาปิ้งเนื้อและซ้อนเบอร์เกอร์แสนอร่อย! ลูกค้าของคุณจะชอบสิ่งที่คุณทำหรือไม่นะ?",
+            trDescription: "Biraz köfte pişirme ve süper lezzetli hamburgerler dizme zamanı! Müşterileriniz yaptığınızı sevecek mi?",
+            ukDescription: "Час смажити котлети та збирати супер смачні бургери! Чи сподобається вашим клієнтам те, що ви зробите?",
+            urDescription: "کچھ پیٹیز کو گرل کرنے اور کچھ انتہائی لذیذ برگرز کی تہہ لگانے کا وقت ہو گیا ہے! کیا آپ کے گاہک آپ کی بنائی ہوئی چیز کو پسند کریں گے؟",
+            uzDescription: "Bir nechta kotletlarni qovurish va oʻta mazali burgerlarni yigʻish vaqti keldi! Mijozlaringiz sizning ishingizni yaxshi koʻradilarmi?",
+            viDescription: "Đã đến lúc nướng một vài miếng thịt và xếp chồng những chiếc bánh mì kẹp thịt siêu ngon! Liệu khách hàng của bạn có thích những gì bạn làm không?",
+            zhDescription: "是时候烤一些肉饼并堆叠一些超级美味的汉堡了！你的顾客会喜欢你做的东西吗？",
+
+            source: "/z/assets/scripts/ruffle-260806/flashloader.html?papasburgeria-papasburgeria!4399.com!freedist-640-480",
+            walkthrough: "",
+            loadingSizeMB: 8,
+            loadingSeconds: "auto",
+            controls: "m",
+            keys: "",
+            orientation: "Landscape",
+            orientationAdviceRequired: false,
+            showBackButton: true,
+            showGameEffectsButton: false,
+            timedReloadEnabled: false,
+            reserveOne: false,
+            reserveTwo: false,
+            translationPleaseHelp: false,
+            desktopOnly: false,
+            musicVote: false,
+            popIndex: 0,
+            dressup: false,
+            spare: 0
+        }
+    </script>
+    <script src=../../assets/scripts/game.js></script>
